@@ -1,0 +1,307 @@
+@media only screen and (max-width:1040px) {
+    .header-info>p {
+        font-size: 17px;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    #menu>.logo-container>img {
+        height: 60px;
+        width: 300px;
+    }
+    .bienvenida>.bienvenida-img>img {
+        margin-top: 120px;
+        width: 400px;
+        height: 300px;
+    }
+    .productos-container>.productos-imagenes>img {
+        height: 220px;
+        width: 280px;
+    }
+    #footer>.footer-info>.redes-sociales>img {
+        height: 40px;
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #menu {
+        width: 360px;
+    }
+    #menu>.logo-container>img {
+        height: 30px;
+        width: 180px;
+    }
+    .btn-menu>.fa-bars {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 28px;
+        cursor: pointer;
+    }
+    .btn-menu>.fa-bars:hover {
+        color: red;
+    }
+    .btn-menu>.fa-times {
+        color: #000;
+    }
+    #menu .lista-container {
+        position: absolute;
+        top: 60px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 60px);
+        background: #fff;
+    }
+    #menu .lista-container .listas {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-top: 5px solid var(--red);
+    }
+    #menu .lista-container .listas li {
+        width: 90%;
+        margin: 10px 0px;
+        border-bottom: 1px solid red;
+        text-align: center;
+    }
+    #menu .lista-container .listas li a {
+        font-size: 20px;
+    }
+    #menu .lista-container .listas li a.active {
+        background: none;
+        color: red;
+    }
+    #menu .lista-container .listas li a:hover {
+        background: none;
+        color: red;
+    }
+    #main>.titulos-main>h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .bienvenida {
+        display: inline;
+    }
+    .bienvenida>.bienvenida-img {
+        text-align: center;
+    }
+    .bienvenida>.bienvenida-img>img {
+        margin-top: 60px;
+    }
+    #main>.productos {
+        width: 100%;
+        height: 270vh;
+    }
+    .productos>.productos-titulo {
+        padding: 10px;
+    }
+    .productos>.productos-titulo>h2 {
+        font-size: 30px;
+    }
+    .productos-container {
+        text-align: center;
+    }
+    .productos-container>.productos-imagenes {
+        display: inline;
+    }
+    .productos-container>.productos-imagenes>img {
+        height: 300px;
+        width: 450px;
+    }
+    .especialidades {
+        width: 70%;
+        margin: 80px auto;
+    }
+    .especialidades>.especialidades-titulo {
+        width: 100%;
+    }
+    .especialidades>.especialidades-titulo>h2 {
+        font-size: 30px;
+    }
+    .especialidades>.especialidades-container {
+        display: inline;
+    }
+    .card-especialidad {
+        width: 100%;
+        text-align: center;
+        margin: 40px auto;
+    }
+    #footer {
+        height: 500px;
+    }
+    #footer>.footer-info {
+        display: inline;
+    }
+    #footer>.footer-info>.redes-sociales {
+        width: 70%;
+        margin: 40px auto;
+    }
+    #footer>.footer-info>.redes-sociales>img {
+        text-align: center;
+        margin: auto;
+    }
+    .redes-sociales>.footer-enlaces {
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+        padding: 0px;
+    }
+    #footer>.footer-info>.contacto-footer {
+        width: 100%;
+        margin: 20px 10px 70px 10px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    body {
+        width: 100%;
+    }
+    .header-info {
+        text-align: center;
+    }
+    .header-info>p {
+        font-size: 15px;
+    }
+    #menu>.logo-container>img {
+        height: 30px;
+        width: 180px;
+        margin-left: 0px;
+    }
+    .btn-menu>.fa-bars {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 30px;
+        color: #000;
+        cursor: pointer;
+    }
+    .btn-menu>.fa-bars:hover {
+        color: #000;
+    }
+    .btn-menu>.fa-times {
+        color: #000;
+    }
+    #menu .lista-container {
+        position: absolute;
+        top: 60px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 60px);
+        background: #fff;
+    }
+    #menu .lista-container .listas {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-top: 5px solid var(--red);
+    }
+    #menu .lista-container .listas li {
+        width: 90%;
+        margin: 10px 0px;
+        border-bottom: 1px solid red;
+        text-align: center;
+    }
+    #menu .lista-container .listas li a {
+        font-size: 20px;
+    }
+    #menu .lista-container .listas li a.active {
+        background: none;
+        color: red;
+    }
+    #menu .lista-container .listas li a:hover {
+        background: none;
+        color: red;
+    }
+    #main>.titulos-main>h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .bienvenida {
+        display: inline;
+    }
+    .bienvenida>.bienvenida-info>p {
+        margin: 30px 40px;
+    }
+    .bienvenida>.bienvenida-img {
+        text-align: center;
+    }
+    .bienvenida>.bienvenida-img>img {
+        margin-top: 60px;
+        width: 300px;
+        margin-left: 28px;
+        height: 180px;
+    }
+    #main>.productos {
+        width: 100%;
+        height: 285vh;
+    }
+    .productos>.productos-titulo {
+        padding: 10px;
+        margin: 30px 50px;
+        width: 250px;
+        text-align: center;
+    }
+    .productos>.productos-titulo>h2 {
+        font-size: 30px;
+    }
+    .productos-container {
+        text-align: center;
+    }
+    .productos-container>.productos-imagenes {
+        display: inline;
+    }
+    .productos-container>.productos-imagenes>img {
+        height: 200px;
+        width: 290px;
+    }
+    .especialidades {
+        width: 85%;
+        margin: 80px auto;
+    }
+    .especialidades>.especialidades-titulo {
+        width: 100%;
+    }
+    .especialidades>.especialidades-titulo>h2 {
+        font-size: 30px;
+    }
+    .especialidades>.especialidades-container {
+        display: inline;
+    }
+    .card-especialidad {
+        width: 100%;
+        text-align: center;
+        margin: 40px auto;
+    }
+    #footer {
+        height: 510px;
+    }
+    #footer>.footer-info {
+        display: inline;
+    }
+    #footer>.footer-info>.redes-sociales {
+        width: 70%;
+        margin: 40px auto;
+    }
+    #footer>.footer-info>.redes-sociales>img {
+        text-align: center;
+        margin: auto;
+    }
+    .redes-sociales>.footer-enlaces {
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+        padding: 0px;
+    }
+    #footer>.footer-info>.contacto-footer {
+        width: 100%;
+        margin: 20px 10px 70px 10px;
+    }
+}
